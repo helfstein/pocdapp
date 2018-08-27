@@ -1,0 +1,15 @@
+{
+  "name": "pocdapp",
+  "version": "1.0.0",  
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helfstein/pocdapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helfstein/pocdapp/issues"
+  },
+  "homepage": "https://github.com/helfstein/pocdapp#readme"
+}
