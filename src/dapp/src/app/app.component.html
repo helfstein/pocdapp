@@ -1,4 +1,12 @@
 <h1>
-  {{ title }}!
+  Dapp Balance is {{ dappBalance }} ETH
+</h1>
+<h1>
+  Account Balance is {{ accountBalance }} ETH
+</h1>
+<h1>
+  Ether Price is {{ etherPrice }} USD
 </h1>
 
+<br/>
+<button type="button" (click)="testar($event)">Atualizar Preço Ether Oraclize</button>
