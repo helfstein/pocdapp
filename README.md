@@ -3,7 +3,7 @@
 First we'll need to instal dependencies for truffle template, angular and etherum-bridge
 
 ## 1 - Install dependencies for etherum-bridge
-* $ cd etherumbridge
+* $ cd etherumbridgenode
 * $ npm install
 
 ## 2 - Install dependencies for truffle template 
@@ -28,10 +28,10 @@ First we'll need to instal dependencies for truffle template, angular and etheru
     }
 ```
 ## 5 - Run your etherun node, in my case i'm using ganache, the link to download ganache for windows is below
-[Downdload Ganache for windows](https://truffleframework.com/ganache)
+[Downdload Ganache for Windows](https://truffleframework.com/ganache)
 
 ## 6 - Run your etherum bridge executing the below commands
-* $ cd etherumbridge
+* $ cd etherumbridgenode
 * $ node bridge -a 2 -H 127.0.0.1 -p 7545
 Note parameter -a indicates the account that gas will is used for deploy oraclize contract, -H indicates de etherum node ip and -p the port
 
