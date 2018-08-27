@@ -28,5 +28,5 @@ First we'll need to instal dependencies for truffle template, angular and etheru
     }
 ```
 ## 5 - Run your etherun node, in my case i'm using ganache, the link to download ganache for windows is below
-    [Downdload Ganache for windows](https://truffleframework.com/ganache)
+[Downdload Ganache for windows](https://truffleframework.com/ganache)
 
