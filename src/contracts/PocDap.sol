@@ -5,7 +5,7 @@ import "../../node_modules/zeppelin-solidity/contracts/ownership/Ownable.sol";
 
 contract PocDap is usingOraclize, Ownable {
     
-    uint articleRegisryFee = 0.001 ether;  
+    uint articleRegisryFee = 0.00001 ether;  
     string urlOraclize = "json(https://api.coinbase.com/v2/prices/ETH-USD/spot).data.amount";
     
     event CallbackReceived(string result);
