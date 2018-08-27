@@ -20,13 +20,13 @@ First we'll need to instal dependencies for truffle template, angular and etheru
     module.exports = {
         networks: {
             ganache: {
-                host: "127.0.0.1",
-                port: 7545,
-                network_id: "*",
-                gas:500000            
+                host: "127.0.0.1",//your etherum node ip address
+                port: 7545,//port where rpc is running on your etherum node
+                network_id: "*"       
             }
         }
     }
 ```
-
+## 5 - Run your etherun node, in my case i'm using ganache, the link to download ganache for windows is below
+    [Downdload Ganache for windows](https://truffleframework.com/ganache)
 
