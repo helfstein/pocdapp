@@ -7,13 +7,13 @@
 
 ## 2. Create a Ethereum-Bridge project in your local machine
 
-  mkdir ethereum-bridge
+  * $ mkdir ethereum-bridge
   
-  git clone https://github.com/oraclize/ethereum-bridge ethereum-bridge
+  * $ git clone https://github.com/oraclize/ethereum-bridge ethereum-bridge
   
-  cd ethereum-bridge
+  * $ cd ethereum-bridge
   
-  npm install
+  * $ npm install
 
 ## 3. Run Ethereum-Bridge
 	node bridge -a 9 to start (-a 9 argument is to reference the account where you are going to deploy the Oraclize contract)
