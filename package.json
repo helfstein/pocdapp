@@ -1,6 +1,6 @@
 {
   "name": "pocdapp",
-  "version": "1.0.0",  
+  "version": "1.0.0",
   "description": "",
   "repository": {
     "type": "git",
@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/helfstein/pocdapp/issues"
   },
-  "homepage": "https://github.com/helfstein/pocdapp#readme"
+  "homepage": "https://github.com/helfstein/pocdapp#readme",
+  "dependencies": {
+    "zeppelin-solidity": "^1.12.0"
+  }
 }
