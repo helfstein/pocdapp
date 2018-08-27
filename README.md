@@ -33,10 +33,12 @@ First we'll need to instal dependencies for truffle template, angular and etheru
 ## 6 - Run your etherum bridge executing the below commands
 * $ cd etherumbridgenode
 * $ node bridge -a 2 -H 127.0.0.1 -p 7545
+
 Note parameter -a indicates the account that gas will is used for deploy oraclize contract, -H indicates de etherum node ip and -p the port
 
 ## 7 - Set the address of oraclize resolver interface in your contract that uses the oraclize calls
 * Edit PocDapp.sol file changing the value "0x6f485C8BF6fc43eA212E93BBF8ce046C7f1cb475" by the OAR printed in console in previous step.
+
 Note OAR address is printed like this: OAR = OraclizeAddrResolverI(0x6f485C8BF6fc43eA212E93BBF8ce046C7f1cb475)
 
 ## 8 - Compile and migrate your contract using below commands in "src/" folder with another prompt or powershell window
