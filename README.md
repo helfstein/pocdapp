@@ -36,6 +36,10 @@ First we'll need to instal dependencies for truffle template, angular and etheru
 
 Note parameter -a indicates the account that gas will is used for deploy oraclize contract, -H indicates de etherum node ip and -p the port
 
+### Note: If you are using Geth as your Ethereum Client, you must remember to initialize the private network with the following command:
+	geth --identity nodeSOL --nodiscover --networkid 13 --port 60303 --maxpeers 10 --lightkdf --cache 16  --rpc --rpcport 8545 --rpcaddr 127.0.0.1 --rpccorsdomain="*" --rpcapi="db,eth,net,web3,personal,web3" **--unlock 0** --datadir "C:\ETH\data-private" --minerthreads 1  --mine
+Where the **--unlock** parameter is super important to make sure that your Oraclize contract on the Ethereum-bridge will deploy sucessfully into your private network. (the number informed after the unlock parameter is the index position from your accounts that you want to unlock from Geth)
+
 ## 7 - Set the address of oraclize resolver interface in your contract that uses the oraclize calls
 * Edit PocDapp.sol file changing the value "0x6f485C8BF6fc43eA212E93BBF8ce046C7f1cb475" by the OAR printed in console in previous step.
 
