@@ -6,6 +6,6 @@ module.exports = function(deployer, network, accounts) {
     deployer.deploy(
         PocDapp,
       
-      { from: accounts[2], gas: 6721975, value: 500000000000000000 });
+      { from: accounts[1], gas: 6721975, value: 500000000000000000 });
       
   };
