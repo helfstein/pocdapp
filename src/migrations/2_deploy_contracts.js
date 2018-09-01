@@ -3,9 +3,11 @@ var PocDapp = artifacts.require("./PocDapp.sol");
 module.exports = function(deployer, network, accounts) {
     // Deploys the OraclizeTest contract and funds it with 0.5 ETH
     // The contract needs a balance > 0 to communicate with Oraclize
-    deployer.deploy(
-        PocDapp,
-      
-      { from: accounts[1], gas: 6721975, value: 500000000000000000 });
+	const oarAddress = 0x6f485C8BF6fc43eA212E93BBF8ce046C7f1cb475;
+    deployer.deploy( PocDapp, oarAddress, { 
+		from: accounts[1], 
+		gas: 6721975, 
+		value: 500000000000000000 
+	});
       
   };
